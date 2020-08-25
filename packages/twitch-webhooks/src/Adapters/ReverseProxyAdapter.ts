@@ -45,6 +45,8 @@ export default class ReverseProxyAdapter extends ConnectionAdapter {
 	/**
 	 * Creates a reverse proxy connection adapter.
 	 *
+	 * @expandParams
+	 *
 	 * @param options
 	 */
 	constructor(options: ReverseProxyAdapterConfig) {
